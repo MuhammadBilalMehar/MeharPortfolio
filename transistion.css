@@ -1,0 +1,22 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    transition: all 2s ease-in 1s;
+    
+}
+
+div:hover{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    /* transform: rotateX(45deg);
+    transform: rotateY(45deg); */
+    /* transform: rotate(45deg); */
+    /* transform: translate(100px); */
+    transform: scale(2);
+    /* transform: scaleX(2);
+    transform: scaleY(2); */
+    transform: skew(39deg);
+
+}

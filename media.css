@@ -1,0 +1,29 @@
+.outerdiv{
+    
+    background-color: antiquewhite;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(59, 79, 97);
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(23, 150, 150);
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    
+    background-color: rgb(122, 122, 75);
+}
+
+
+
+@media(min-width:200px)and(max-width:300px){
+    .outerdiv{
+        background-color: red;
+    }
+}
+
